@@ -1075,14 +1075,6 @@ odm/lib64/libwvhidl.so
 vendor/etc/oplus_Widevine_licenses.pfm
 vendor/lib64/libtrustedapploader.so
 
-# WiFi
-odm/etc/wifi/regdb.bin
-odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini
-vendor/bin/cnss-daemon
-vendor/etc/init/init.vendor.wlan.rc
-vendor/etc/wifi/p2p_supplicant_overlay.conf
-vendor/etc/wifi/wpa_supplicant_overlay.conf
-
 # WiFi Display (system) - from LE2120_11_A.01 (ColorOS 13.0.0 Open Beta F.11)
 system/framework/WfdCommon.jar|323859204993cb8bf89821baeb08a6a85e750c65
 system_ext/bin/wfdservice|fc204600629fbf60c4c6c187f0943d21643fdb4a
