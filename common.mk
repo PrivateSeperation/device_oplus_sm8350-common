@@ -350,6 +350,16 @@ PRODUCT_PACKAGES += \
     WifiResTarget \
     NotchBarKiller
 
+# Prebuilts
+PRODUCT_PACKAGES += \
+    Drive \
+    Maps \
+    PrebuiltGmail
+
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+    
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
